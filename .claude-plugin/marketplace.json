@@ -1,10 +1,27 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "user-test",
+  "description": "Multi-agent User Testing — spawn persona agents to test your spec, service, or API and compile actionable feedback",
+  "owner": {
+    "name": "cosmos-makers",
+    "email": "jegwan.oh@navercorp.com"
+  },
   "plugins": [
     {
       "name": "user-test",
-      "source": "./"
+      "description": "Multi-agent User Testing plugin for Claude Code",
+      "version": "0.1.0",
+      "author": {
+        "name": "cosmos-makers",
+        "email": "jegwan.oh@navercorp.com"
+      },
+      "source": "./",
+      "category": "testing",
+      "homepage": "https://github.com/cosmos-makers/user-test",
+      "repository": "https://github.com/cosmos-makers/user-test",
+      "license": "MIT",
+      "keywords": ["user-test", "persona", "multi-agent", "feedback", "ux"],
+      "tags": ["user-testing", "ux-research", "multi-agent"]
     }
   ]
 }

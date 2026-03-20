@@ -1,0 +1,27 @@
+{
+  "name": "40대 직장인",
+  "description": "40대 중간관리자 중심, IT 숙련도 편차가 큰 그룹",
+  "personas": [
+    {
+      "id": "office-diligent",
+      "label": "성실한 팀장",
+      "demographics": { "age": 44, "gender": "male", "region": "경기 분당", "income": "상", "occupation": "IT기업 팀장" },
+      "behavioral": { "domain_expertise": "high", "it_proficiency": "heavy_user", "competitor_experience": ["사내 시스템", "Jira", "Confluence"], "current_workaround": "사내 도구 조합" },
+      "psychographic": { "tech_adoption": "early_majority", "motivation": "팀 생산성 향상", "usage_context": "사무실, 재택근무" }
+    },
+    {
+      "id": "office-busy",
+      "label": "바쁜 과장",
+      "demographics": { "age": 41, "gender": "female", "region": "서울 영등포", "income": "중상", "occupation": "금융권 과장" },
+      "behavioral": { "domain_expertise": "medium", "it_proficiency": "light_user", "competitor_experience": ["회사 인트라넷"], "current_workaround": "전화와 메신저" },
+      "psychographic": { "tech_adoption": "late_majority", "motivation": "시간 절약", "usage_context": "출퇴근길, 업무 중 짬" }
+    },
+    {
+      "id": "office-resistant",
+      "label": "변화 저항형",
+      "demographics": { "age": 48, "gender": "male", "region": "서울 종로", "income": "상", "occupation": "공기업 부장" },
+      "behavioral": { "domain_expertise": "low", "it_proficiency": "minimal", "competitor_experience": [], "current_workaround": "부하직원에게 위임" },
+      "psychographic": { "tech_adoption": "laggard", "motivation": "상부 지시로 어쩔 수 없이", "usage_context": "사무실 데스크탑" }
+    }
+  ]
+}

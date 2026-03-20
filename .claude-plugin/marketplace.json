@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "user-test",
+  "plugins": [
+    {
+      "name": "user-test",
+      "source": "./"
+    }
+  ]
+}

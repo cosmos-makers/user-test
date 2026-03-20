@@ -1,0 +1,27 @@
+{
+  "name": "MZ 2030 타겟",
+  "description": "20-30대 디지털 네이티브 중심 그룹",
+  "personas": [
+    {
+      "id": "mz-heavy",
+      "label": "테크 얼리어답터",
+      "demographics": { "age": 27, "gender": "male", "region": "서울 강남", "income": "중상", "occupation": "스타트업 개발자" },
+      "behavioral": { "domain_expertise": "high", "it_proficiency": "heavy_user", "competitor_experience": ["토스", "당근", "배민"], "current_workaround": "여러 앱을 번갈아 사용" },
+      "psychographic": { "tech_adoption": "early_adopter", "motivation": "효율과 속도", "usage_context": "출퇴근길, 점심시간" }
+    },
+    {
+      "id": "mz-casual",
+      "label": "캐주얼 사용자",
+      "demographics": { "age": 24, "gender": "female", "region": "서울 마포", "income": "중", "occupation": "대학원생" },
+      "behavioral": { "domain_expertise": "low", "it_proficiency": "moderate", "competitor_experience": ["네이버", "카카오"], "current_workaround": "검색으로 해결" },
+      "psychographic": { "tech_adoption": "early_majority", "motivation": "편리함", "usage_context": "자취방, 카페" }
+    },
+    {
+      "id": "mz-skeptic",
+      "label": "회의적 사용자",
+      "demographics": { "age": 31, "gender": "male", "region": "경기 성남", "income": "중상", "occupation": "대기업 마케터" },
+      "behavioral": { "domain_expertise": "medium", "it_proficiency": "moderate", "competitor_experience": ["기존 레거시 도구"], "current_workaround": "엑셀과 이메일" },
+      "psychographic": { "tech_adoption": "late_majority", "motivation": "증명된 가치만 수용", "usage_context": "업무 중" }
+    }
+  ]
+}

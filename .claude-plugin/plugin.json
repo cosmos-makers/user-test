@@ -1,0 +1,13 @@
+{
+  "name": "user-test",
+  "version": "0.1.0",
+  "description": "Multi-agent User Testing — spawn persona agents to test your spec, service, or API and compile actionable feedback",
+  "author": {
+    "name": "cosmos-maker",
+    "email": "jegwan.oh@navercorp.com"
+  },
+  "repository": "https://github.com/cosmos-maker/user-test",
+  "license": "MIT",
+  "keywords": ["user-test", "persona", "multi-agent", "feedback", "ux"],
+  "skills": "./skills/"
+}

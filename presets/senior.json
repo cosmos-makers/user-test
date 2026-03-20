@@ -1,0 +1,27 @@
+{
+  "name": "시니어 (50대+)",
+  "description": "디지털 접근성과 직관성이 중요한 시니어 그룹",
+  "personas": [
+    {
+      "id": "senior-active",
+      "label": "액티브 시니어",
+      "demographics": { "age": 55, "gender": "female", "region": "서울 서초", "income": "상", "occupation": "자영업" },
+      "behavioral": { "domain_expertise": "low", "it_proficiency": "moderate", "competitor_experience": ["네이버 카페", "카카오톡"], "current_workaround": "자녀에게 물어봄" },
+      "psychographic": { "tech_adoption": "early_majority", "motivation": "자립적 생활", "usage_context": "집, 외출 시" }
+    },
+    {
+      "id": "senior-cautious",
+      "label": "조심스러운 사용자",
+      "demographics": { "age": 62, "gender": "male", "region": "부산 해운대", "income": "중", "occupation": "은퇴자" },
+      "behavioral": { "domain_expertise": "none", "it_proficiency": "minimal", "competitor_experience": [], "current_workaround": "오프라인 방문" },
+      "psychographic": { "tech_adoption": "laggard", "motivation": "실수 걱정, 보안 불안", "usage_context": "집 거실, 큰 화면 선호" }
+    },
+    {
+      "id": "senior-learner",
+      "label": "배우려는 시니어",
+      "demographics": { "age": 58, "gender": "female", "region": "대전 유성", "income": "중", "occupation": "주부/파트타임" },
+      "behavioral": { "domain_expertise": "low", "it_proficiency": "light_user", "competitor_experience": ["유튜브", "네이버"], "current_workaround": "블로그 검색" },
+      "psychographic": { "tech_adoption": "early_majority", "motivation": "새로운 것 배우기", "usage_context": "오후 여유시간" }
+    }
+  ]
+}

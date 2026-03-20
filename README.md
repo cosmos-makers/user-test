@@ -7,7 +7,7 @@ Spawn persona agents to test your spec, web service, or API — then compile act
 ## Install
 
 ```bash
-claude plugin marketplace add cosmos-maker/user-test
+claude plugin marketplace add cosmos-makers/user-test
 claude plugin install user-test@user-test
 ```
 

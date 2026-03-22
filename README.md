@@ -1,8 +1,6 @@
-# user-test
+# User Test
 
-Multi-agent User Testing plugin for Claude Code.
-
-Spawn persona agents to test your spec, web service, or API — then compile actionable feedback into a structured report.
+A Claude Code plugin that runs **multi-agent user testing**. Spawn AI persona agents — each with distinct demographics, behaviors, and a personal diary — to test your spec, web service, or API. Get a structured feedback report with prioritized recommendations.
 
 ## Install
 
@@ -96,7 +94,7 @@ These improvements are grounded in the following academic research on LLM role-p
 | 9 | Kim et al. "Persona is a Double-Edged Sword" | 2024 | arXiv | Ensemble validation |
 | 10 | "Human Simulacra: A Step toward Personification of LLMs" | 2024 | arXiv | Diary (life story generation) |
 
-Full survey (23 papers): See [LLM Role-Playing 논문 서베이](../../4-지식/학습-세션/2026/2026-03-22%20LLM%20Role-Playing%20논문%20서베이.md)
+Full survey covers 23 papers on LLM role-playing, persona simulation, and character consistency.
 
 ## License
 

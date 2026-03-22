@@ -29,12 +29,19 @@ setup → start → enhance를 한 번에 실행한다.
 
 사용자에게 구성된 그룹을 보여주고 계속 진행할지 확인한다.
 
+### Phase 1.5: Diary (페르소나 일기 생성)
+
+1. 각 페르소나의 "어제 하루" 일기를 병렬 생성한다
+2. `.user-test/diaries/{id}.md`에 저장 (이미 존재하면 건너뜀)
+3. 사용자에게 건너뛰기 옵션 제공
+
 ### Phase 2: Start
 
 1. 테스트 대상 유형을 판별한다 (spec / web / api)
-2. 각 페르소나 에이전트를 병렬 spawn한다
-3. 피드백을 수합하여 보고서를 생성한다
-4. `.user-test/report-{timestamp}.md`에 저장
+2. `.user-test/diaries/`에서 각 페르소나의 일기를 로드하여 컨텍스트에 포함
+3. 각 페르소나 에이전트를 병렬 spawn한다
+4. 피드백을 수합하여 보고서를 생성한다
+5. `.user-test/report-{timestamp}.md`에 저장
 
 보고서 요약을 보여주고 개선 단계로 넘어갈지 확인한다.
 
@@ -49,6 +56,7 @@ setup → start → enhance를 한 번에 실행한다.
 
 각 Phase 완료 시 사용자 확인을 받는다. 사용자가 중단하면 해당 시점까지의 결과물은 보존된다:
 - Phase 1 후 중단 → `.user-test/personas.json` 보존
+- Phase 1.5 후 중단 → 페르소나 + 일기 보존
 - Phase 2 후 중단 → 보고서 보존, `/user-test:enhance`로 나중에 이어서 가능
 - Phase 3 완료 → 전체 프로세스 완료
 
@@ -64,6 +72,7 @@ setup → start → enhance를 한 번에 실행한다.
 
 📋 산출물
 - 페르소나 설정: .user-test/personas.json
+- 페르소나 일기: .user-test/diaries/
 - 피드백 보고서: .user-test/report-{timestamp}.md
 - 적용된 개선: {n}건 (P0: {n}, P1: {n})
 
